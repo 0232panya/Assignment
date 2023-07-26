@@ -1,0 +1,31 @@
+
+.body{
+    height: 100%;
+    margin: 0;
+    height: 100vh;
+}
+
+.row{
+    background-color: black;
+    height: 100%;
+}
+
+.left_container{
+    color: white;
+    display: flex;
+    padding-left: 80px;
+   
+}
+
+.left_Menu{
+    font-size: larger;
+    margin: 16px 0;
+}
+
+.search_Wrapper{
+    margin: 12px 0 0 15px;
+    width: 80%;
+    height: 30px;
+    border-radius: 12px;
+    background-color: gray;
+}

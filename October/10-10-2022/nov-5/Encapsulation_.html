@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example of Encapsulation</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		//Example 1: 
+		document.writeln("Example 1 : <br>" )
+		class Student {
+			constructor(){
+				var name;
+				var marks;
+			}
+			getName(){
+				return this.name;
+			}
+			setName(name){
+				this.name = name;
+			}
+			getMarks(){
+				return this.marks;
+			}
+			setMarks(marks){
+				this.marks = marks;
+			}
+		}
+
+		var stud = new Student();
+		stud.setName("Pranoti");
+		stud.setMarks(80);
+		document.writeln(stud.getName() + " has secured " + stud.getMarks() + " marks. <br><br>");
+
+		//Example 2:
+		document.writeln("Example 2 : <br>" );
+		function student(name,marks){
+			var s_name = name;
+			var s_marks = marks;
+
+			Object.defineProperty(this,"name",{
+				get:function(){
+					return s_name;
+				},
+				set:function(s_name){
+					this.s_name = s_name;
+				}
+			});
+
+			Object.defineProperty(this,"marks",{
+				get:function(){
+					return s_marks;
+				},
+				set:function(s_marks){
+					this.s_marks = s_marks;
+				}
+			});
+		}
+
+		var stud1 = new student("Pranoti",80);
+		document.writeln(stud1.name + " has secured " + stud1.marks + " marks. <br><br>");
+
+	</script>
+
+</body>
+</html>

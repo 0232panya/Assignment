@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Menu</title>
+
+    <link rel="stylesheet" href="menu.css">
+
+</head>
+<body>
+
+    <div class="menu_Select">
+        <div class="selector">
+            <div id="selectField">
+                <p id="selectText">Select Social Media</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16" id="arrowIcon">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+            </div>
+
+            <ul id="list" class="hide">
+                <li class="options">
+                    <img src="Images/facebook.png" alt="">
+                    <p>Facebook</p>
+                </li>
+                <li class="options">
+                    <img src="Images/insta.webp" alt="">
+                    <p>Instagram</p>
+                </li>
+                <li class="options">
+                    <img src="Images/YouTube.png" alt="">
+                    <p>YouTube</p>
+                </li>
+                <li class="options">
+                    <img src="Images/pinterest.png" alt="">
+                    <p>Pinterest</p>
+                </li>
+                <li class="options">
+                    <img src="Images/twitter.webp" alt="">
+                    <p>Twitter</p>
+                </li>
+                <li class="options">
+                    <img src="Images/WhatsApp.png" alt="">
+                    <p>WhatsApp</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+
+        var selectField = document.getElementById("selectField");
+        var selectText = document.getElementById("selectText");
+        var options =document.getElementsByClassName("options");
+        var list = document.getElementById("list")
+        var arrowIcon = document.getElementById("arrowIcon")
+
+        selectField.onclick =function(){
+            list.classList.toggle("hide");
+            arrowIcon.classList.toggle("rotate")
+        }
+
+        for(option of options){
+            option.onclick = function(){
+                selectText.innerHTML =this.textContent;
+                list.classList.toggle("hide");
+                arrowIcon.classList.toggle("rotate")
+            }
+        }
+
+    </script>
+    
+</body>
+</html>

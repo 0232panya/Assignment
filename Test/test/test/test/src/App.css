@@ -1,0 +1,51 @@
+.App {
+  border: 3px black solid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin : 10% 15%;
+  border-radius: 10px ;
+}
+
+input{
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 8px;
+  border: 1px solid grey !important;
+  border-radius: 10px;
+  
+}
+
+hr{
+  margin: 10px 10%;
+}
+
+label{
+  margin-bottom: -20px;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  /* display: flex; */
+
+}
+
+.Button{
+  background-color: royalblue;
+  border: 1.5px darkblue solid;
+  width: 80px;
+  height: 25px;
+  border-radius: 10px;
+}
+
+a{
+  display: flex;
+  justify-content: right;
+  text-align: right;
+ 
+}
+
+
+
+

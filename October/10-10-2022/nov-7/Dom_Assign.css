@@ -1,0 +1,46 @@
+
+
+
+
+body{
+    background-color: rgb(0, 60, 255) !important;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+.cards{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f7faf7;
+}
+
+.mb-3 input{
+    border: none;
+    margin: 0;
+}
+
+.mb-3{
+    display: flex;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 2px 3px 0 #adbbbd;
+}
+
+.mb-3 svg, input::placeholder{
+    color: #adbbbd !important;
+}
+
+.mb-3 input:focus, input:active{
+    box-shadow: none;
+}
+
+.text_center{
+    text-align: center;
+}

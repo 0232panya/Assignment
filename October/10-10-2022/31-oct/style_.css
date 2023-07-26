@@ -1,0 +1,106 @@
+
+
+.margin_remove{
+    margin: 0px;
+    
+}
+
+.x-text{
+    
+    color: lightgrey;
+    font-size: x-small;
+    margin-left: 5px;
+}
+
+.icon_Cover{
+    margin-top: -10px;
+}
+
+.icon{
+    color: white;
+}
+
+.row{
+    border: 1px grey solid;
+    padding: 12px;
+    
+}
+
+.card-body{
+    text-align: center;
+}
+
+
+
+.stars{
+    fill: gold;
+}
+
+.Cover{
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.text_size{
+    font-size: x-large;
+}
+
+.header_Line{
+    background-color: black;
+    height: 50px;
+    display: flex;
+
+}
+
+.left_Header{
+    display: flex;
+    color: white;
+    padding-left: 20px;
+    width: 20%;
+    width: 40%;
+    align-items: center;
+}
+
+.right_Header{
+    padding: 8px;
+    display: flex;
+    color: white;
+    width: 80%;
+    width: 60%;
+    align-items: center;
+    justify-content: end;
+}
+
+.btn_editor{
+    margin-right: 6px;
+    height: 34px;
+    padding: 8px;
+    /*display: flex;*/
+    background-color: grey;
+    border: 1px groove grey;
+    font-size: small;
+    color: white;
+    border-radius: 2px;
+
+}
+
+
+.btn_info{
+    color: white;
+    justify-content: center;
+}
+
+.footer{
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

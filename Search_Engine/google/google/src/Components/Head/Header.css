@@ -1,0 +1,20 @@
+
+.navbar{
+    background-color: white !important;
+}
+
+.btn{
+    border: none;
+    border-radius: 50px !important;
+    height: 30px;
+    background-color: white !important;
+} 
+
+.btn:hover{
+    background-color: lightgray !important;
+}
+
+/* .svg{
+    color: white;
+    background-color: grey;
+} */
