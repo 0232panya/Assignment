@@ -19,7 +19,7 @@ const App = () => {
     const item = {
       id: Math.floor(Math.random() * 1000),
       value: newItem
-    }
+    } 
 
     setItems(oldList => [...oldList,item]);
 
@@ -33,10 +33,10 @@ const App = () => {
       setItems(newArray)
   }
 
-  function editItem(ids){
-      const editItems = items.filter(item => item.ids == ids);
-      setItems(editItems);
-  }
+  // function editItem(ids){
+  //     const editItems = items.filter(item => item.ids === "input");
+  //     setItems(editItems);
+  // }
 
   return <div className='container'>
       <div className='app-wrapper'>
@@ -53,7 +53,7 @@ const App = () => {
                 value={newItem}
                 onChange={e => setNewItem(e.target.value)}
             />
-            <button className='button-Add' type='submit' onClick={() => addItem()}>Add</button>
+            <button className='button-Add' type='submit' onClick={() => addItem()}>Submit</button>
 
             </div>
 
@@ -64,7 +64,7 @@ const App = () => {
               return(
                 <li key={item.id}>
                   {item.value}
-                  <button className='edit' onClick={() => editItem(item.ids)}>Edit</button>
+                  {/* <button className='edit' onClick={() => editItem(item.ids)}>Edit</button> */}
                   <button className='btn' onClick={() => deleteItem(item.id)}>Delete</button>
                 </li>
               )
