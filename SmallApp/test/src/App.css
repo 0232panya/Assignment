@@ -1,0 +1,158 @@
+/* .App {
+  text-align: center;
+} */
+
+.search-input{
+  width: 30%;
+  height: fit-content;
+  border-radius: 10px;
+  
+  box-shadow: 0.1px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  font-size: 17px;
+
+}
+
+.text-field{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20%;
+  box-shadow: 0.1px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.text-field h5{
+  margin: 10px 15px;
+  text-align: center;
+  flex-basis: 25%;
+}
+
+.text-field h4{
+  margin: 10px 15px;
+  text-align: center;
+  flex-basis: 25%;
+  color: blue;
+  border-bottom: 1px solid red;
+}
+
+
+/* ----------------- Quiz App ---------------- */
+
+.border-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  height: 100vh;
+}
+
+.quiz-box{
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 13px;
+  width: 700px;
+  height: 400px;
+}
+
+.question-line{
+  display: flex;
+  min-height: 80px;
+  border-bottom: 1px solid black;
+}
+
+.questions{
+  width: 80%;
+  margin: 0 20px;
+}
+
+.question-no{
+  width: 20%;
+  text-align: right;
+  margin: 0 20px;
+  justify-content: right;  
+  display: flex;
+  height: 30px;
+}
+
+.que-no{
+  text-align: center;
+  background: pink;
+  width: 60px;
+}
+
+/* ----------- Answer list ---------------- */
+
+.answer-list{
+  display: flex;
+  justify-content: center;
+}
+
+.answer-list ul{
+  width: 90%;
+}
+
+.answer-list ul li{
+  border: 1px solid black;
+  padding: 10px 30px;
+  border-radius: 13px;
+  list-style: none;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* ------------------BUTTON ------------------- */
+
+.button{
+  display: flex;
+  justify-content: right;
+  margin: 0 30px;
+}
+
+.button button{
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.correct{
+  background: pink;
+}
+
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

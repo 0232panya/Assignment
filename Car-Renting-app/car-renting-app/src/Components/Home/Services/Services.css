@@ -1,0 +1,114 @@
+
+.services{
+    width: 100vw;
+    /* height: 100vh; */
+    padding: 20px 0;
+}
+
+.services-title{
+    text-align: center;
+}
+
+.services-title p{
+    margin: 0;
+    font-weight: 600;
+    font-size: 15px;
+    color: grey;
+}
+
+.services-title h1{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    /* font-size: 3vw; */
+}
+
+@media (max-width: 600px) {
+    .services-title h1{
+        font-size: 3vw;
+    }
+    
+}
+
+
+/* -------------- NORMAL BUTTONS ---------------- */
+
+.car-cards-filterBTN{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.car-cards-filterBTN .buttonmenu{
+    padding: 8px 15px;
+    margin: 5px 10px;
+    border: 2.5px solid lightgray;
+    background-color: lightgray;
+    /* border-radius: 3px; */
+    font-size: 16px;
+}
+
+.buttonmenu.Active{
+    background-color: orange;
+    border: 2.5px solid rgb(243, 218, 171);
+    box-shadow: 1px 1px 2px rgba(222, 166, 75, 0.577), 0 0 2px rgba(223, 145, 67, 0.4);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.seeMore-BTN{
+    padding: 10px 40px;
+    background-color: rgb(255, 136, 0);
+    border: 2px solid orange;
+    border-radius: 5px;
+    display: flex;
+    margin: auto;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'roboto', sans-serif;
+}
+
+
+/* --------------------DROPDOWN MENU ------------------------------ */
+
+.car-dropdown{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.car-dropdown .btn{
+    width: fit-content;
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+
+.car-dropdown .btn svg{
+    margin: 0 10px;
+}
+
+.dropdown-menu li button{
+    border: none;
+    background-color: transparent;
+    width:100%;
+}
+
+@media (max-width: 600px) {
+    .car-dropdown{
+        display: flex;
+    }
+    
+    .car-cards-filterBTN{
+        display: none;
+    }
+}

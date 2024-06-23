@@ -1,0 +1,144 @@
+
+.Cart-Cards{
+    display: flex;
+    color: #fff;
+    
+}
+
+.cart-card-img{
+    width: 20%;
+}
+
+.cart-card-img img{
+    width: 130px;
+    height: 100px;
+    object-fit: fill;
+}
+
+.card-cart-info{
+    width: 80%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.itle-h5{
+    width: 40%;
+}
+
+.item-Qty{
+    display: flex;
+    border: 2px solid #c4a9a9;
+    border-radius: 5px;
+}
+
+.item-Qty button{
+    padding: 5px 10px;
+    border: 0;
+    font-weight: 800;
+    font-size: 17px;
+    /* border-radius: 5px; */
+    /* background-color: #fff; */
+}
+
+.minus{
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-color: #fff; 
+}
+
+.plus{
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #fff;
+}
+
+.item-Qty .qty{
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.item-price{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.delete-btn button{
+    border: none;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 10px;
+    color: #fff;
+}
+
+.delete-btn button:hover{
+    color: red;
+    background-color: #fff;
+}
+
+@media (max-width: 650px) {
+    .cart-card-img img{
+        width: 100px;
+        height: 80px;
+    }
+
+    .itle-h5 h5{
+        font-size: 17px;
+    }
+
+    .item-Qty{
+        font-size: 14px;
+    }
+
+    .item-Qty button{
+        padding: 1px 8px;
+    }
+
+    .item-price p{
+        font-size: 15.5px;
+    }
+
+    .delete-btn button{
+        font-size: 14px;
+    }
+}
+
+/* -------------- MAX-WIDTH = 350PX ----------------- */
+
+@media (max-width: 400px) {
+    .cart-card-img img{
+        width: 50px;
+        height: 40px;
+    }
+
+    .itle-h5 h5{
+        font-size: 12px;
+    }
+
+    .item-Qty{
+        font-size: 10px;
+    }
+
+    .item-Qty .qty{
+        padding: 5px 8px;
+    }
+
+    .item-Qty button{
+        padding: 0.5px 3px;
+    }
+
+    .item-price{
+        margin-left: 5px;
+    }
+
+    .item-price p{
+        font-size: 12px;
+    }
+
+    .delete-btn button{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,77 @@
+
+{
+    "projects" : [
+
+        {
+            "id" : 1,
+            "img" : "portfolio/Interior_design.png",
+            "Title" : "Interior Design App",
+            "description" : "I have made a Interior Design website in React.Js. I have used the UnSplash API for photos and I have used the react library for carousal.",
+            "url" : "https://interior-design-pm.netlify.app/"
+        },
+
+        {
+            "id" : 2,
+            "img" : "portfolio/Cafeapp.png",
+            "Title" : "Cafe App",
+            "description" : "I have made a Cafe App using reactJS. I had put some features like Cart, Login And LogOut Options in it and It's Responsive.",
+            "url" : "https://coders-cafe-pm.netlify.app/"
+        },
+
+        {
+            "id" : 3,
+            "img" : "portfolio/Car-renting-app.png",
+            "Title" : "Car Renting App",
+            "description" : "I have made a Car Renting app using reactJS. It's Responsive.",
+            "url" : "https://car-renting-app-pm.netlify.app"
+        },
+
+        {
+            "id" : 4,
+            "img" : "portfolio/News_App.png",
+            "Title" : "News App",
+            "description" : "I have made the News App in reactJS. In this, I used news API , and various sections like business , general , etc.",
+            "url" : "https://newsapp-pm.netlify.app/"
+        },
+
+        {
+            "id" : 5,
+            "img" : "portfolio/Crud_app.png",
+            "Title" : "Crud App",
+            "description" : "I have made the Crud App using react and redux.",
+            "url" : "https://crud-app-pm.netlify.app/"
+        },
+
+        {
+            "id" : 6,
+            "img" : "portfolio/House_renting_app.png",
+            "Title" : "Play Station Clone",
+            "description" : "This is my first project. It's not that perfect but I gave my 100%. I only used HTML,CSS and BootStrap",
+            "url" : "https://playstation-pm.netlify.app/"
+        },
+
+        {
+            "id" : 7,
+            "img" : "portfolio/weather-app.png",
+            "Title" : "Weather App",
+            "description" : "I have made the Weather app using HTML, CSS and JavaScript.",
+            "url" : "https://weather-app0232.netlify.app/"
+        },
+
+        {
+            "id" : 8,
+            "img" : "portfolio/digital-clock.png",
+            "Title" : "Digital Clock",
+            "description" : "I have made the Digital Clock app using HTML, CSS and JavaScript.",
+            "url" : "https://digital-clock-pm.netlify.app/"
+        },
+
+        {
+            "id" : 9,
+            "img" : "portfolio/age-calculator.png",
+            "Title" : "Age Calculator",
+            "description" : "I have made the Age Calculator app using HTML, CSS and JavaScript.",
+            "url" : "https://age-calculator-pm.netlify.app/"
+        }
+    ]
+}

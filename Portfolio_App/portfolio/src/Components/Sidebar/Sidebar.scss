@@ -1,0 +1,58 @@
+
+.sidebar{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    
+
+    .sidebar-bg{
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 300px;
+        height: 100vh;
+        background: var(--body_color);
+        color: var(--body_background);
+        
+
+        .links{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+
+            a{
+                font-size: 25px;
+            }
+        }
+
+
+    }
+
+    button{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: fixed;
+        top: 32px;
+        left: 30px;
+        background-color: transparent;
+        color: var(--body_background);
+        border: none;
+        cursor: pointer;
+
+        .svg-list{
+            stroke: var(--body_background) !important;
+        }
+    }
+
+}

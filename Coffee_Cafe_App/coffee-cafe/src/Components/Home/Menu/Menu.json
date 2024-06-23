@@ -1,0 +1,203 @@
+
+{
+    "menuCategary" : [
+        
+        {
+            "id" : "a1",
+            "Category" : "Bevarages",
+            "title" : "cappuccino",
+            "Price" : "60",
+            "qty" : 1,
+            "urlImg" : "https://lh3.googleusercontent.com/E5lJKAWWmnFzEJox55scgDigxoXE8BZJX_QxPnlS6WBKgdjjqxdJyk1zehjloN8tkxl9o6QPShulcWcQTRlVTDjACen8csBnNrU=w4858-h3644-c-rj-v1-e365"
+        },
+
+        {
+            "id" : "a2",
+            "Category" : "Bevarages",
+            "title" : "caffè latte",
+            "Price" : "70",
+            "qty" : 1,
+            "urlImg" : "https://coffeeaffection.com/wp-content/uploads/2021/02/does-a-cappuccino-have-caffeine.jpg"
+        },
+
+        {
+            "id" : "a3",
+            "Category" : "Bevarages",
+            "title" : "Espresso",
+            "Price" : "50",
+            "qty" : 1,
+            "urlImg" : "https://www.adityabirlacapital.com/healthinsurance/active-together/wp-content/uploads/2019/12/How-Are-Espressos-Good-For-Health_blog_lower_1-1200x900.png"
+        },
+
+        {
+            "id" : "a4",
+            "Category" : "Bevarages",
+            "title" : "Americano",
+            "Price" : "60",
+            "qty" : 1,
+            "urlImg" : "https://enjoyjava.com/wp-content/uploads/2021/08/how-to-make-an-americano.jpg"
+        },
+
+        {
+            "id" : "a5",
+            "Category" : "Bevarages",
+            "title" : "Ice Americano",
+            "Price" : "90",
+            "qty" : 1,
+            "urlImg" : "https://www.philips.com/c-dam/b2c/master/experience/ho/philips-chef/recipe/drinks-and-ice-creams/iced-americano/iced-americano-main-thumb.jpg"
+        },
+
+        {
+            "id" : "a6",
+            "Category" : "Bevarages",
+            "title" : "Creamy Ice Coffee",
+            "Price" : "110",
+            "qty" : 1,
+            "urlImg" : "https://www.thehungrybites.com/wp-content/uploads/2023/06/coffee-ice-cream-frappe-frappuccino-feat.jpg"
+        },
+
+        {
+            "id" : "a7",
+            "Category" : "Bevarages",
+            "title" : "Ice Mocha",
+            "Price" : "100",
+            "qty" : 1,
+            "urlImg" : "https://bakingmischief.com/wp-content/uploads/2019/05/iced-mocha-image-square.jpg"
+        },
+
+        {
+            "id" : "a8",
+            "Category" : "Bevarages",
+            "title" : "Tea",
+            "Price" : "50",
+            "qty" : 1,
+            "urlImg" : "https://cdn2.foodviva.com/static-content/food-images/tea-recipes/milk-tea-recipe/milk-tea-recipe.jpg"
+        },
+
+        {
+            "id" : "a9",
+            "Category" : "Bevarages",
+            "title" : "Ice Tea",
+            "Price" : "90",
+            "qty" : 1,
+            "urlImg" : "https://mittalteas.com/cdn/shop/products/1_1ea56c30-d8ed-4bd3-9412-86a5f6f8c134.jpg?v=1639675162"
+        },
+
+        {
+            "id" : "a10",
+            "Category" :"Bevarages",
+            "title" : "Mojito",
+            "Price" : "100",
+            "qty" : 1,
+            "urlImg" : "https://images.immediate.co.uk/production/volatile/sites/2/2022/10/221020CHRISTMASCHRISTMASMOJITO03354-f1489dd.jpg?quality=90&resize=556,505"
+        },
+
+        {
+            "id" : "a12",
+            "Category" : "Snacks",
+            "title" : "Veg Burger",
+            "Price" : "70",
+            "qty" : 1,
+            "urlImg" : "https://mrbrownbakery.com/image/images/rEyMLsj21Ooxk5mfhdeh7bSevaLGzUtczWXVDj4u.jpeg?p=full"
+        },
+
+        {
+            "id" : "a13",
+            "Category" : "Snacks",
+            "title" : "Veg Pizza",
+            "Price" : "120",
+            "qty" : 1,
+            "urlImg" : "https://www.southernliving.com/thmb/3x3cJaiOvQ8-3YxtMQX0vvh1hQw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg"
+        },
+
+        {
+            "id" : "a14",
+            "Category" : "Snacks",
+            "title" : "Grilled Sandwich",
+            "Price" : "60",
+            "qty" : 1,
+            "urlImg" : "https://www.honeywhatscooking.com/wp-content/uploads/2022/06/Bombay-Grilled-Sandwich20-780x556.jpg"
+        },
+
+        {
+            "id" : "a15",
+            "Category" : "Snacks",
+            "title" : "Veg Mayo Sandwich",
+            "Price" : "55",
+            "qty" : 1,
+            "urlImg" : "https://www.indianveggiedelight.com/wp-content/uploads/2022/08/vegetable-mayonnaise-sandwich-1.jpg"
+        },
+
+        {
+            "id" : "a16",
+            "Category" : "Snacks",
+            "title" : "Veg Salad",
+            "Price" : "70",
+            "qty" : 1,
+            "urlImg" : "https://tastythriftytimely.com/wp-content/uploads/2023/01/Holiday-Leftover-Roasted-Veg-Salad-Featured.jpg"
+        },
+
+        {
+            "id" : "a17",
+            "Category" : "Snacks",
+            "title" : "French Fries",
+            "Price" : "60",
+            "qty" : 1,
+            "urlImg" : "https://thecozycook.com/wp-content/uploads/2020/02/Copycat-McDonalds-French-Fries-.jpg"
+        },
+
+        {
+            "id" : "a18",
+            "Category" : "Snacks",
+            "title" : "Garlic Bread Sticks",
+            "Price" : "80",
+            "qty" : 1,
+            "urlImg" : "https://www.thespruceeats.com/thmb/YWPOc07QOjupBcOkE9G6koP4594=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/garlic-breadsticks-4150711-hero-01-a1fd1f54ab6a425aa95196cae3a0b2c0.jpg"
+        },
+
+        {
+            "id" : "a19",
+            "Category" : "Dessert",
+            "title" : "Cheese Cake",
+            "Price" : "65",
+            "qty" : 1,
+            "urlImg" : "https://preppykitchen.com/wp-content/uploads/2022/07/cheesecake-blog-2.jpg"
+        },
+
+        {
+            "id" : "a20",
+            "Category" : "Dessert",
+            "title" : "Brownie",
+            "Price" : "55",
+            "qty" : 1,
+            "urlImg" : "https://www.bhg.com/thmb/MYIgk7NI-L7jRCNMFvz6nuSU89c=/1430x0/filters:no_upscale():strip_icc()/bourbon-brownies-RU220604-f4b4c0482bca4174bdf65300b1764a31.jpg"
+        },
+
+        {
+            "id" : "a21",
+            "Category" : "Dessert",
+            "title" : "Vanilla Scoop",
+            "Price" : "50",
+            "qty" : 1,
+            "urlImg" : "https://www.biggerbolderbaking.com/wp-content/uploads/2018/05/Vanilla-2-Ingredient-Ice-cream-scaled.jpg"
+        },
+
+        {
+            "id" : "a22",
+            "Category" : "Dessert",
+            "title" : "Red Velvet Cheese Cake",
+            "Price" : "80",
+            "qty" : 1,
+            "urlImg" : "https://hips.hearstapps.com/hmg-prod/images/delish-red-velvet-cheesecake-cake-horizontal-1544827804.jpg?crop=0.8888888888888888xw:1xh;center,top&resize=1200:*"
+        },
+
+        {
+            "id" : "a23",
+            "Category" : "Dessert",
+            "title" : "Choco Fudge",
+            "Price" : "60",
+            "qty" : 1,
+            "urlImg" : "https://static.toiimg.com/photo/53096885.cms"
+        }
+    ]
+}

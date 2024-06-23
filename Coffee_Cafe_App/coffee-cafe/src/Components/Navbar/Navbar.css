@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Protest+Strike&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(66, 18, 18);
+}
+
+.cafe-logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cafe-logo img{
+    width: 5rem;
+    height: fit-content;
+}
+
+.cafe-logo p{
+    margin: auto;
+    font-size: 2rem;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #fff;
+}
+
+.cafe-menu-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.cafe-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cafe-menu-bar .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.7rem;
+}
+
+.cafe-menu-bar .nav li {
+    list-style: none;
+    margin: 0 0.7rem;
+}
+
+.cafe-menu-bar .nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.cafe-menu-bar button{
+    margin: 0 0.7rem;
+    cursor: pointer;
+}
+
+.login-btn{
+    padding: 4px 16px;
+    border-radius: 15px;
+    border: 2px solid rgb(93, 40, 40);
+    background-color: rgb(119, 62, 62);
+    color: #fff;
+}
+
+.cart-btn{
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+
+.cart{
+    width: 1.3rem;
+    color: #fff;
+    height: 1.3rem;
+}
+
+.cart-btn span{
+    border-radius: 20px;
+    background-color: rgb(121, 3, 3);
+    padding: 1px 2px;
+    color: #fff;
+    position: absolute;
+    top: -10px;
+    right: -5px;
+}
+
+
+/* --------------- RESPONSIVE NAVBAR ------------ */
+
+.responsive-Nav{
+    width: 250px;
+    background-color: #fff;
+    height: 100vh;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.responsive-Nav li{
+    margin: 10px;
+    list-style: none;
+}
+
+.responsive-Nav li a{
+    text-decoration: none;
+    color: black !important;
+}
+
+.list{
+    display: none;
+}
+
+.list-style{
+    color: #fff;
+    font-size: 25px;
+}
+
+.close{
+    font-weight: 600;
+    font-size: 18px;
+    background-color: rgb(216, 213, 213);
+    padding: 4px 10px;
+    border-radius: 50%;
+}
+
+/* -------------- MAX WIDTH = 650PX ------------- */
+
+
+@media (max-width : 650px) {
+    .list{
+        display: block;
+        justify-content: flex-end;
+    }
+
+    .nav-windowScreen{
+        display: none;
+    }
+
+    .cafe-logo  img{
+        width: 3.5rem;
+    }
+
+    .cafe-logo p{
+        font-size: 1.5rem;
+    }
+
+    .login-btn{
+        padding: 2px 12px;
+        font-size: 14px;
+    }
+}
+
+/* ---------------- MAX WIDTH = 400PX ---------------------- */
+
+@media (max-width : 400px) {
+    .list{
+        display: block;
+        justify-content: flex-end;
+    }
+
+    .nav-windowScreen{
+        display: none;
+    }
+
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cafe-logo  img{
+        width: 3rem;
+    }
+
+    .cafe-logo p{
+        font-size: 1.3rem;
+    }
+
+    .login-btn{
+        padding: 1px 10px;
+        font-size: 12px;
+    }
+
+    .after-login{
+        display: flex;
+    }
+
+    .after-login .cart{
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .cafe-menu-bar{
+        margin: 5px;
+    }
+
+    .cafe-menu-bar  button{
+        margin: 0 5px;
+    }
+
+    .cart-btn span{
+        border-radius: 15px;
+        font-size: 12px;
+        padding: 1px 2.5px;
+        top: -7px;
+        right: -4px;
+    }
+}

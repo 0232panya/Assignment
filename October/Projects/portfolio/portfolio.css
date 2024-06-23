@@ -17,14 +17,16 @@ a{
 body{
     background-color: #000808;
     color: #fff;
+    
 }
 
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(https://wallpaper.dog/large/10857131.jpg);
+    background-image: url(https://thumbs.dreamstime.com/b/coding-software-developer-work-augmented-reality-dashboard-computer-icons-scrum-agile-development-code-fork-versioning-159515836.jpg); 
     background-size: cover;
     background-position: center;
+    /* background: linear-gradient(rgba(0,0,0,0.01),#e95080); */
 }
 
 .container{
@@ -73,20 +75,39 @@ nav ul li a:hover::after{
 }
 
 .header-text{
-    margin-top: 20%;
-    font-size: 30px;
+    margin-top: 22%;
+    font-size: 33px;
 }
 
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
+    
 }
 
 .header-text h1 span{
     color: #ff004f;
 }
 
-/* About */
+.header-text button{
+    font-size: 17px;
+    padding: 10px 25px;
+    background-color: #ff004f;
+    outline: 0;
+    border: 2px solid #ff004f;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.header-text button:hover{
+    background: none;
+}
+
+.header-text a{
+    text-decoration: none;
+}
+
+/* ------------------------------- About ------------------------ */
 
 #about{
     padding: 80px 0;
@@ -101,12 +122,13 @@ nav ul li a:hover::after{
 
 .user{
     /* width: 100%; */
-    height: 600px;
+    width: 450px;
+    height: 500px;
     border-radius: 15px;
 }
 
 .about.col-1{
-    flex-basis: 35%;
+    flex-basis: 30%;    
 }
 
 .about-col-2{
@@ -157,6 +179,31 @@ nav ul li a:hover::after{
     font-size: 14px;
 }
 
+.progress-bar{
+    width: 500px;
+    height: 20px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 1px 1px 1px rgb(245, 245, 240);
+    position: relative;
+} 
+
+.progress-bar span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(76,175,80,1) 50%, rgba(50,222,132,1) 100%);
+    transition: width 0.5s linear;
+}
+
 .tab-contents{
     display: none;
 }
@@ -165,7 +212,7 @@ nav ul li a:hover::after{
     display: block;
 }
 
-/* Services */
+/* --------------------------------- Services --------------------------- */
 
 #services{
     padding: 30px 0;
@@ -219,7 +266,7 @@ nav ul li a:hover::after{
 
 .work-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -228,6 +275,15 @@ nav ul li a:hover::after{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    display: none;
+    margin: 0 50px;
+    width: 350px;
+}
+
+.work:nth-child(1),
+.work:nth-child(2),
+.work:nth-child(3){
+    display: inline-block;
 }
 
 .work img{
@@ -257,8 +313,9 @@ nav ul li a:hover::after{
 }
 
 .layer h3{
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 20px;
+    font-size: 25px;
 }
 
 .layer a{
@@ -292,6 +349,12 @@ nav ul li a:hover::after{
     border-radius: 6px;
     text-decoration: none;
     transition: background 0.5s;
+}
+
+.btn {
+    background: transparent;
+    color: #fff;
+    font-size: 17px;
 }
 
 .btn:hover{
@@ -370,12 +433,16 @@ nav .hide{
 /* css for small screen */
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(profile2.jpg);
+        background-image: url(https://th.bing.com/th/id/R.df637280afb83fabededc3a4b6efc95c?rik=g1tEw%2fu8rGamvw&riu=http%3a%2f%2fwww.eckomantra.com%2fwp-content%2fuploads%2f2019%2f05%2ffront-end-ui-development-page-image2-1.jpg&ehk=PCqPNNhur0EvAiXDMJcfPNckkWMRz0UN32OXEiBfVsA%3d&risl=&pid=ImgRaw&r=0);
+        
+        width: 550px;
+        height: 100vh;
     }
 
     .header-text{
-        margin-top: 100%;
-        font-size: 16px;
+        margin-top: 90%;
+        font-size: 18px;
+        color: #333;
     }
 
     .header-text h1{
@@ -413,6 +480,10 @@ nav .hide{
 
     .sub-title{
         font-size: 40px;
+    }
+
+    .progress-bar{
+        width: 400px;
     }
 
     .about.col-1, .about-col-2{

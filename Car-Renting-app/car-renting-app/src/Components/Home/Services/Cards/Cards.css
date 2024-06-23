@@ -1,0 +1,171 @@
+
+
+
+.car-Card{
+    margin: 50px;    
+}
+
+.card{
+   width: fit-content;
+   padding: 10px;
+   border-radius: 15px;
+   box-shadow: 1px 1px 20px 1px rgba(10, 10, 10, 0.2);
+   background-color: rgb(250, 249, 249);
+}
+
+.card img{
+    width: 300px;
+    border-radius: 5px;
+    height: 200px;
+}
+
+.card-body{
+    margin: 0 5px;
+    border-bottom: 1px solid grey;
+}
+
+.Head{
+    display: flex;
+}
+
+.Head h4{
+    width: 80%;
+    font-size: 1.2em;
+}
+
+.Head p{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    text-align: center;
+    margin: auto;
+    padding: 2px;
+    width: 50px;
+    border: 1px dashed rgb(59, 110, 231);
+    border-radius: 12px;
+}
+
+.detail{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.detail svg{
+    color: rgb(59, 110, 231);
+    width: 17px;
+    height: 17px;
+}
+
+.detail .left-text{
+    width: 50%;
+}
+
+.purchase{
+    display: flex;
+    margin: 0 15px;
+    align-items: center;
+}
+
+.purchase p{
+    width: 40%;
+}
+
+.purchase .btn{
+    width: 60%;
+    display: flex;
+    justify-content:right;
+    margin: auto;
+}
+
+.btn button{
+    width: fit-content;    
+    height: fit-content;
+    margin: 3px;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.btn .svg{
+    display: flex;
+    border-radius: 12px;
+    background: rgb(210, 234, 240);
+    color: rgb(59, 110, 231);
+}
+
+.btn .rent-btn{
+    background: rgb(59, 110, 231);
+    border-radius: 10px;
+    color: white;
+}
+
+@media only screen and (max-width : 400px) {
+
+    .car-Card{
+        margin: 10px;
+    }
+
+    .card{
+        border-radius: 5px;
+    }
+    
+    .card img{
+        width: 200px;
+        border-radius: 0;
+        height: 110px;
+    }
+
+    .card-body{
+        margin:  0;
+    }
+
+    .Head{
+        align-items: center;
+    }
+
+    .Head h4{
+        width: 80%;
+        font-size: 0.7rem;
+    }
+
+    .Head p{
+        font-size: 0.6em;
+        margin-bottom: 8px;
+    }
+
+    .detail{
+        display: flex;
+        margin-bottom: 8px;
+    }
+
+    .detail .left-text,.right-text{
+        font-size: 10px;
+    }
+
+    .detail svg{
+        width: 10px;
+        height: 10px;
+    }
+
+    .purchase{
+        margin: 0 2px;
+    }
+
+    .purchase p{
+        font-size: 10px;
+        margin-top: 6px;
+        margin-left: 5px;
+    }
+
+    .purchase .btn svg{
+        width: 10px;
+        height: 10px;
+    }
+
+    .purchase .btn button{
+        font-size: 8px;
+        padding: 7px;
+    }
+
+}

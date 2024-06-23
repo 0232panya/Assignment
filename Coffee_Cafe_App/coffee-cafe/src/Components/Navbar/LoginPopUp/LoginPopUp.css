@@ -1,0 +1,260 @@
+
+
+.login-popup{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    padding-top: 7%;
+}
+
+
+/* -------------- POP UP ALERT -------------- */
+
+.popUp-alert{
+    width: 300px;
+    height: fit-content;
+    border-radius: 2px;
+    position: absolute;
+    top: 1%;
+    right: 5%;
+    background-color: #ffffff;
+}
+
+
+.popUp-alert div{
+    margin: 8px 15px 8px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popUp-alert div p{
+    margin: 0 15px 5px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #eb0606;
+    font-family: 'roboto', sans-serif;
+}
+
+.popUp-alert div .popup-alertBTN{
+    
+    border-radius: 50%;
+    padding: 0px 10px;
+    border: none;
+    font-size: 12px;
+    background-color: rgba(229, 7, 7, 0.89);
+    color: #fff;
+    font-weight: 600;
+    outline: none;
+}
+
+/* -------------- POP UP BOX --------------- */
+
+.loginpopup-box{
+    background: #fff;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    position: relative;
+}
+
+.loginPopUp-CloseBTN{
+    position: absolute;
+    top: -15px;
+    left: -25px;
+}
+
+.loginPopUp-CloseBTN button{
+    background: whitesmoke;
+    padding: 5px 12px;
+    border-radius: 50%;
+    border: none;
+}
+
+.LoginPopUp-Form{
+    display: flex;
+    width: 800px;
+    align-items: center;
+}
+
+.login-img-side{
+    height: 500px;
+}
+
+.login-img-side img{
+    height: 500px;
+}
+
+.LoginPopUp-Form .form{
+    width: 60%;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Form-title h2{
+    font-family: "Protest Riot", sans-serif;
+}
+
+.Form-title p{
+    font-size: 14px;
+    font-family: 'roboto', sans-serif;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: 0 -1px 2px 0 #00000046, 0 1px 2px 0 #00000046;
+}
+
+form button{
+    /* margin: 8px !important; */
+    padding: 5px 10px;
+    border: 2px solid rgba(104, 11, 3, 0.245);
+    background: linear-gradient(to right, rgba(104, 11, 3, 0.797) ,rgba(75, 6, 0, 0.896) );
+    color: #fff;
+}
+
+.hr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-hr{
+    width: 50%;
+}
+
+.div-or{
+    margin: 5px;
+}
+
+.signbutton{
+    display: flex;
+    justify-content: center;
+}
+
+.signbutton button{
+    display: flex;
+    align-items: center;
+    padding: 7px 10px;
+    border: 2px solid rgb(130, 129, 129);
+    background-color: transparent;
+}
+
+.signbutton button p{
+    font-size: 12px;
+    margin: 0 5px;
+    font-family: 'roboto', sans-serif;
+}
+
+.facebook{
+    font-size: 16px;
+    fill: rgb(7, 7, 139);
+}
+
+.google{
+    font-size: 16px;
+}
+
+.signUp-{
+    margin: 20px;
+}
+
+.signUp- p{
+    font-size: 14px;
+    font-family: 'roboto', sans-serif;
+}
+
+.signUp- p a{
+    color: rgb(6, 134, 208) !important;
+    font-size: 15px;
+    text-decoration: underline !important;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+}
+
+@media (max-width: 650px) {
+
+    .login-popup{
+        padding-top: 15%;
+    }
+
+    .LoginPopUp-Form{
+        flex-direction: column;
+        width: fit-content;
+    }
+
+
+    .loginpopup-box{
+        width: fit-content;
+    }
+
+    .login-img-side{
+        /* background-image: url("https://www.foodiesfeed.com/wp-content/uploads/2023/06/cappuccino-croissant-1024x574.jpg");
+        background-position: center;
+        background-size: cover;
+        display: block; */
+        height: fit-content;
+        display: none;
+    }
+
+    .LoginPopUp-Form .form{
+        width: 80%;
+        margin: 30px;
+    }
+
+    .Form-title h2{
+        font-family: "Protest Riot", sans-serif;
+        font-size: 20px;
+    }
+    
+    .Form-title p{
+        font-size: 12px;
+        font-family: 'roboto', sans-serif;
+    }
+
+    .form input{
+        margin: 10px;
+        padding: 5px 10px;
+    }
+
+    .signbutton button{
+        padding: 5px 8px;
+        border: 2px solid rgb(130, 129, 129);
+        background-color: transparent;
+    }
+
+    .signbutton button p{
+        font-size: 10px;
+        margin: 0 ;
+    }
+
+    .facebook{
+        font-size: 14px;
+    }
+
+    .google{
+        font-size: 14px;
+    }
+
+    .signUp-{
+        margin: 15px 10px;
+    }
+    
+    .signUp- p{
+        font-size: 12px;
+    }
+    
+}

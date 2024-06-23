@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Dancing+Script:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lobster&family=Pacifico&family=Protest+Riot&family=Protest+Strike&family=Recursive:wght@300..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika+Negative:wght@300..700&display=swap');
+
+.app{
+  text-align: center;
+  /* background: linear-gradient(to bottom, rgba(65, 2, 2, 0.921), rgba(76, 0, 0, 0.734)); */
+  background-color: rgba(65, 2, 2, 0.826);
+}
+
+body{
+  margin: 0;
+}
+
+h1{
+    font: 3rem;
+    font-weight: 800;
+    font-family: 'roboto', sans-serif;
+    color: #fff;
+}
+
+a{
+  text-decoration: none;
+}
+
+

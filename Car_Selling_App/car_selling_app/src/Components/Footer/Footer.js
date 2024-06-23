@@ -1,7 +1,7 @@
 
 import './Footer.css';
 
-function Footer({totalPages,cardsPerPage,setCurrentPage,currentPage, index}){
+function Footer({totalPages,cardsPerPage,setCurrentPage,currentPage}){
 
         let pages = [];
         let npages = Math.ceil(totalPages/cardsPerPage);
@@ -12,7 +12,7 @@ function Footer({totalPages,cardsPerPage,setCurrentPage,currentPage, index}){
 
         function preClick(){
                 if(currentPage !== 1){
-                        setCurrentPage(currentPage -1);
+                        setCurrentPage(currentPage - 1);
                 }
         }
 

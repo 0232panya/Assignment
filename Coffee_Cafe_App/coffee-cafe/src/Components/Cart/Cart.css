@@ -1,0 +1,75 @@
+
+.Cart-Page{
+    width: 100%;
+    padding: 50px auto;
+    background: linear-gradient(to bottom, rgba(34, 4, 4, 0.938), rgba(49, 1, 1, 0.938));
+    color: #fff;
+}
+
+.fonth2 h2{
+    padding-top: 50px;
+}
+
+.cart-sec{
+    width: 100%;
+    /* height: 90vh; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cart-Items{
+    width: 800px;
+    min-height: 400px;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 15px 10px;
+}
+
+.total-price, .nextBTN{
+    margin: 15px auto;
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+
+.total-price h6{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 600;
+}
+
+.nextBTN button{
+    padding: 5px 35px;
+    border: 3px solid rgb(103, 5, 5);
+    background-color: rgba(114, 5, 5, 0.834);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'roboto', sans-serif;
+}
+
+@media (max-width: 650px) {
+    .cart-Items{
+        width: 90%;
+        min-height: 300px;
+    }
+
+   .nextBTN{
+        margin-bottom: 20px;
+    }
+
+    .total-price h6{
+        font-size: 16px;
+    }
+
+    .nextBTN button{
+        padding: 5px 35px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+}

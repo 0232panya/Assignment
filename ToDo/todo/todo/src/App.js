@@ -17,8 +17,8 @@ const App = () => {
     }
 
     const item = {
-      id: Math.floor(Math.random() * 1000),
-      value: newItem
+      id : Math.floor(Math.random() * 1000),
+      value : newItem
     } 
 
     setItems(oldList => [...oldList,item]);

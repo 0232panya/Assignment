@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.ride{
+    width: 100vw;
+    /* height: 100vh; */
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.ride-title p{
+    font-weight: 600;
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.ride-title h1{
+    /* font-family: 'Protest Strike', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .ride-title h1{
+        font-size: 3vw;
+    }
+    
+}
+
+.ride-cards-box{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ride-card{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ride-card-title{
+    margin-top: 20px;
+}
+
+.ride-card-title h4{
+    font-family: 'roboto', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.ride-card-title p{
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ride-card-img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 6rem;
+    border: 5px solid rgba(254, 252, 252, 0.908);
+    box-shadow: 5px 4px 10px 5px rgb(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+.ride-card-img-box img{
+    width: 4rem;
+    height: 4rem;
+}
+
+.claendar-img{
+    background: linear-gradient(to bottom, rgb(246, 108, 3), rgb(255, 157, 0));
+}
+
+.claendar-img svg{
+    fill: white;
+}
+
+.book-car-img svg{
+    fill: rgb(255, 136, 0);
+}
+
+@media only screen and (max-width: 400px) {
+
+    .ride-cards-box{
+        margin-top: 20px;
+    }
+
+    .ride-card{
+       width: 150px; 
+       margin: 10px ;
+    }
+
+    .ride-card-img-box{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .ride-card-img-box img{
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+
+    .ride-card-title h4{
+        font-size: 1rem;
+    }
+    
+    .ride-card-title p{
+        font-size: 0.6rem;
+    }
+    
+}

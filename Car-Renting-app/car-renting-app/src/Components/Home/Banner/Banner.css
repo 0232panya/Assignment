@@ -1,0 +1,194 @@
+
+.home-Banner{
+    /* display: flex; */
+    position: relative;
+    /* width: 100vw; */
+}
+
+.banner{
+    background-color: rgb(223, 219, 219);
+    display: flex;
+}
+
+.intro-section{
+    /*  */
+    width: 50%;
+    margin: auto 50px;
+
+}
+
+.intro-section h1{
+    margin: 0 1em;
+    font-size: 4em;
+}
+
+.intro-section h1 .span{
+    color: rgb(255, 128, 0);
+}
+
+.bottom-border{
+    border-bottom: 10px solid rgb(255, 128, 0);
+    border-radius: 2px;
+}
+
+.intro-section p{
+    margin: 20px 3.5em;
+}
+
+/* ---------------- FORM ----------------------- */
+
+.car-renting-date{
+    bottom: 10%;
+    left: 20%;
+    position: absolute;
+    /* width: fit-content; */
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.car-renting-date form{
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.car-renting-date form input{
+    border: none;
+    height: 35px;
+    width: 150px;
+    margin: 0 10px;
+    outline: none;
+}
+
+.span-input{
+    border-bottom: 1px solid black !important;
+}
+
+.car-renting-date form button{
+    padding: 16px 25px;
+    background-color: rgb(41, 84, 211);
+    border: 1px solid rgb(41, 84, 211);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.img-scetion{
+    width: 50%;
+}
+
+.img-scetion div{
+    width: 600px;
+    height: 100vh;
+    margin: 30px 50px;
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background: linear-gradient(to bottom , rgb(255, 140, 0), rgb(255, 191, 0));
+}
+
+.img-scetion img{
+    width: 750px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 120px 0;
+    position: relative;
+}
+
+@media (max-width : 600px) {
+    .home-Banner{
+        width: 100%;
+        margin-bottom: 20px ;
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(255, 191, 0);
+    }
+
+    .intro-section{
+        width: 100%;
+        margin: auto 30px;
+    }
+
+    .intro-section h1{
+        margin: 1em;
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+    .intro-section p{
+        margin: 20px 2.3em;
+    }
+
+    .img-scetion div{
+        height: 90vh;
+        width: 80vw; 
+        background: linear-gradient(to bottom, rgb(255, 191, 0) , rgb(255, 140, 0));
+    }
+
+    .img-scetion img{
+        width: 500px;
+    }
+
+    .car-renting-date{
+        bottom: 2%;
+        left: 18%;
+        width: 68%;
+    }
+
+    .car-renting-date form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .car-renting-date form input{
+        border-bottom: 1px solid grey;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 10px 10px;
+    }
+
+    .car-renting-date form button{
+        padding: 7px 40px;
+        margin: 0 25px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .intro-section{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .intro-section h1{
+        margin: 1em 1em 0.5em;
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+    .intro-section p{
+        margin: 0px 3.5em;
+    }
+    
+    .img-scetion img{
+        width: 360px;
+        top: -60px;
+    }
+
+
+    .car-renting-date {
+        width: 55%;
+    }
+
+    .img-scetion div{
+        height: 78vh;
+        width: 70vw; 
+        background: linear-gradient(to bottom, rgb(255, 191, 0) , rgb(255, 140, 0));
+    }
+}

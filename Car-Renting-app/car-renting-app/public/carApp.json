@@ -1,0 +1,261 @@
+[
+    {
+        "id"    : "1",
+        "image" : "https://www.longotoyota.com/blogs/4337/wp-content/uploads/2023/01/2023-Toyota-RAV4.jpg",
+        "Company" : "Toyota",
+        "title" : "Toyota RAV4",
+        "year"  : "2021",
+        "people": "4",
+        "fuel"  : "Hybrid",
+        "spead" : "6.1kmpl",
+        "autotype"  : "Automatic",
+        "price" : "440"
+    },
+
+    {
+        "id"    : "2",
+        "image" : "https://imgd.aeplcdn.com/0X0/n/cw/ec/141115/creta-exterior-right-front-three-quarter-16.jpeg?isig=0&q=80",
+        "Company" : "Hyundai",
+        "title" : "Hyundai Creta",
+        "year"  : "2021",
+        "people": "5",
+        "fuel"  : "Hybrid",
+        "spead" : "18.0kmpl",
+        "autotype"  : "Automatic",
+        "price" : "500"
+    },
+
+    {
+        "id"    : "3",
+        "image" : "https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Swift/10402/1688128138547/front-left-side-47.jpg?tr=w-456",
+        "Company" : "Maruti Suzuki",
+        "title" : "Maruti Swift",
+        "year"  : "2019",
+        "people": "5",
+        "fuel"  : "petrol",
+        "spead" : "20.56kmpl",
+        "autotype"  : "Automatic",
+        "price" : "350"
+    },
+
+    {
+        "id"    : "4",
+        "image" : "https://1.bp.blogspot.com/-2GQe2zMedb0/X-t8cLUvMdI/AAAAAAAADiE/F8ER4KPwJyk4nsl5NL9EO522RMB8j3tTQCLcBGAsYHQ/s1800/Heading.webp",
+        "Company" : "Maruti Suzuki",
+        "title" : "Maruti Vitara Brezza",
+        "year"  : "2022",
+        "people": "5",
+        "fuel"  : "petrol",
+        "spead" : "18kmpl",
+        "autotype"  : "Automatic",
+        "price" : "400"
+    },
+
+    {
+        "id"    : "5",
+        "image" : "https://www.cartoq.com/wp-content/uploads/2022/05/fortuner-gr-s-2.jpg",
+        "Company" : "Toyota",
+        "title" : "Toyota Fortuner",
+        "year"  : "2021",
+        "people": "7",
+        "fuel"  : "Hybrid",
+        "spead" : "8kmpl",
+        "autotype"  : "Automatic",
+        "price" : "490"
+    },
+
+    {
+        "id"    : "6",
+        "image" : "https://media.zigcdn.com/media/content/2022/Jul/946113043-whatsappimage2022-07-13ars.jpg",
+        "Company" : "Tata Motors",
+        "title" : "Tata Nexon",
+        "year"  : "2020",
+        "people": "5",
+        "fuel"  : "Diesel",
+        "spead" : "25.4kmpl",
+        "autotype"  : "Automatic",
+        "price" : "470"
+    },
+
+    {
+        "id"    : "7",
+        "image" : "https://images.livemint.com/img/2020/10/02/1600x900/Thar_1601615282959_1601615288316.jpg",
+        "Company" : "Mahindra",
+        "title" : "Mahindra Thar",
+        "year"  : "2023",
+        "people": "4",
+        "fuel"  : "Diesel",
+        "spead" : "9.0kmpl",
+        "autotype"  : "Automatic",
+        "price" : "440"
+    },
+
+    {
+        "id"    : "8",
+        "image" : "https://static.toiimg.com/thumb/msid-102110465,width-1280,height-720,resizemode-4/.jpg",
+        "Company" : "Tata Motors",
+        "title" : "Tata Punch",
+        "year"  : "2022",
+        "people": "5",
+        "fuel"  : "Hybrid",
+        "spead" : "20kmpl",
+        "autotype"  : "Automatic",
+        "price" : "500"
+    },
+
+    {
+        "id"    : "9",
+        "image" : "https://imgd.aeplcdn.com/1280x720/n/cw/ec/144151/toyota-innova-crysta-left-front-three-quarter0.jpeg?isig=0",
+        "Company" : "Toyota",
+        "title" : "Toyota Innova Crysta",
+        "year"  : "2022",
+        "people": "7",
+        "fuel"  : "Diesel",
+        "spead" : "20kmpl",
+        "autotype"  : "Automatic",
+        "price" : "520"
+    },
+
+    {
+        "id"    : "10",
+        "image" : "https://stimg2.cardekho.com/images/carNewsEditorImages/userimages/20181026_185304/22657/volkswagen0.jpg?impolicy=resize&imwidth=420",
+        "Company" : "Volkswagen",
+        "title" : "Volkswagen T-Cross",
+        "year"  : "2020",
+        "people": "4",
+        "fuel"  : "gasoline",
+        "spead" : "10kmpl",
+        "autotype"  : "Automatic",
+        "price" : "400"
+    },
+
+    {
+        "id"    : "11",
+        "image" : "https://stimg2.cardekho.com/images/carNewsEditorImages/userimages/20201113_120726/26352/hyundai0.jpg?impolicy=resize&imwidth=420",
+        "Company" : "Hyundai",
+        "title" : "Hyundai i20",
+        "year"  : "2022",
+        "people": "5",
+        "fuel"  : "Petrol",
+        "spead" : "15kmpl",
+        "autotype"  : "Automatic",
+        "price" : "380"
+    },
+
+    {
+        "id"    : "12",
+        "image" : "https://static.autox.com/uploads/2021/09/2021-Honda-Amaze-Static11.jpg",
+        "Company" : "Honda",
+        "title" : "Honda Amaze",
+        "year"  : "2019",
+        "people": "5",
+        "fuel"  : "Petrol",
+        "spead" : "18kmpl",
+        "autotype"  : "Automatic",
+        "price" : "440"
+    },
+
+    {
+        "id"    : "13",
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/2014_Honda_City_(GM6_MY14)_VTi_sedan_(2015-07-15)_01.jpg/1200px-2014_Honda_City_(GM6_MY14)_VTi_sedan_(2015-07-15)_01.jpg",
+        "Company" : "Honda",
+        "title" : "Honda City",
+        "year"  : "2018",
+        "people": "5",
+        "fuel"  : "Petrol",
+        "spead" : "18kmpl",
+        "autotype"  : "Automatic",
+        "price" : "400"
+    },
+
+    {
+        "id"    : "14",
+        "image" : "https://stat.overdrive.in/wp-content/odgallery/2018/06/42508_XUV500_AMT_AWD-2018-063.JPG",
+        "Company" : "Mahindra",
+        "title" : "Mahindra XUV 500",
+        "year"  : "2017",
+        "people": "7",
+        "fuel"  : "Petrol",
+        "spead" : "18kmpl",
+        "autotype"  : "Automatic",
+        "price" : "440"
+    },
+
+    {
+        "id"    : "15",
+        "image" : "https://www.carblogindia.com/wp-content/uploads/2017/11/2018-volkswagen-virtus-images-front-angle-1024x682.jpg",
+        "Company" : "Volkswagen",
+        "title" : "Volkswagen Virtus",
+        "year"  : "2019",
+        "people": "5",
+        "fuel"  : "Petrol",
+        "spead" : "18kmpl",
+        "autotype"  : "Automatic",
+        "price" : "450"
+    },
+
+    {
+        "id" : "16",
+        "image" : "https://stat.overdrive.in/wp-content/odgallery/2018/11/48713_Maruti_Suzuki_Ertiga_2019_004.JPG",
+        "Company" : "Maruti Suzuki",
+        "title" : "Maruti Ertiga",
+        "year"  : "2020",
+        "people": "7",
+        "fuel"  : "Petrol",
+        "spead" : "20kmpl",
+        "autotype"  : "Automatic",
+        "price" : "450"
+    },
+
+    {
+        "id" : "17",
+        "image" : "https://cdni.autocarindia.com/ExtraImages/20210708025541_Mahindra_Bolero_Neo.jpg",
+        "Company" : "Mahindra",
+        "title" : "Mahindra Balero",
+        "year"  : "2017",
+        "people": "7",
+        "fuel"  : "Petrol",
+        "spead" : "20kmpl",
+        "autotype"  : "Automatic",
+        "price" : "400"
+    },
+
+    {
+        "id" : "18",
+        "image" : "https://c.ndtvimg.com/2020-01/5il1jgo8_hyundai-aura_625x300_27_January_20.jpg",
+        "Company" : "Hyundai",
+        "title" : "Hyundai Aura",
+        "year"  : "2021",
+        "people": "5",
+        "fuel"  : "Petrol",
+        "spead" : "20kmpl",
+        "autotype"  : "Automatic",
+        "price" : "430"
+    },
+
+    {
+        "id" : "19",
+        "image" : "https://gaadiwaadi.com/wp-content/uploads/2017/08/tata-tigor-petrol-review-14-1094x720.jpg",
+        "Company" : "Tata Motors",
+        "title" : "Tata Tigor",
+        "year"  : "2017",
+        "people": "5",
+        "fuel"  : "Petrol",
+        "spead" : "18kmpl",
+        "autotype"  : "Automatic",
+        "price" : "400"
+    },
+
+    {
+        "id" : "20",
+        "image" : "https://cdni.autocarindia.com/ExtraImages/20211103052315_Taigun.jpg",
+        "Company" : "Volkswagen",
+        "title" : "Volkswagen Tiagun",
+        "year"  : "2021",
+        "people": "5",
+        "fuel"  : "Petrol",
+        "spead" : "18kmpl",
+        "autotype"  : "Automatic",
+        "price" : "470"
+    }
+]

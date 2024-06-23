@@ -1,0 +1,21 @@
+
+
+.img-card{
+    width: fit-content;
+    height: fit-content;
+    margin: 20px 0;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: transform 300ms;
+}
+
+.img-card:hover{
+    transform: scale(1.03);
+    box-shadow:  2px 2px 8px 1px rgba(0,0,0, 0.3) ;
+}
+
+.img-card img{
+    width: 270px;
+    height: 350px;
+    border-radius: 10px;
+}
