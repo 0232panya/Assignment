@@ -1,0 +1,136 @@
+
+.gallery-Sec{
+    width: 720px;
+    height: 330px;
+    margin-top: 16px;
+    left: 922px;
+    display: flex;
+    background: #363C43;
+    box-shadow: 5.67px 5.67px 3.78px 0px #00000066;
+    border-radius: 18.89px;
+    /* overflow: hidden; */
+}
+
+.G-Left-Sec{
+    width: 24px;
+    height: 159.69px;
+    top: 116px;
+    left: 934px;
+    margin: 20px 12px;
+    gap: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.G-Right-Sec{
+    width: 90%;
+    /* padding-left: px; */
+}
+
+.G-Top{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.gallery-btn{
+    width: 149px;
+    height: 62px;
+    margin-top: 21px;
+    top: 37px;
+    left: 20px;
+    border-radius: 20px;
+    background: #171717;
+    box-shadow: 0px 4px 10px 2px #00000040 inset;
+}
+
+.add-img-btn{
+    display: flex;
+    gap: 20px;
+}
+
+
+.add-img{
+    width: 131.32px;
+    height: 46px;
+    margin-top: 28px;
+    top: 481px;
+    left: 1434.32px;
+    gap: 0px;
+    border-radius: 104px;
+    opacity: 0px;
+    /* angle: -180 deg; */
+    background: #FFFFFF08;
+    box-shadow: 0px 3.26px 3.26px 0px #FFFFFF26 inset;
+    box-shadow: 0px 0px 48.91px 0px #FFFFFF0D inset;
+    box-shadow: 9px 10px 7.1px 0px #00000066;
+    box-shadow: -0.5px -0.5px 6.9px 0px #FFFFFF40;
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 6.29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.left-arrow, .right-arrow{
+    background: linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%);
+    box-shadow: 4px 5px 30px 5px #101213;
+    box-shadow: -5px -3px 30px -10px #96BEE7;
+    border-radius: 50%;
+    color: #6F787C;
+    padding: 12px 15px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.scroll{
+    display: flex;
+    align-items: center;
+}
+
+.images-scroll{
+    width: 645px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images-scroll img{
+    width: 190px;
+    height: 179px;
+    margin-top: 55px;
+    left: 39px;
+    border-radius: 24px;
+    background: #00000033;
+    filter: grayscale(100%);
+
+}
+
+.images-scroll img:hover{
+    filter: grayscale(60%);
+    scale: 1.12;
+    rotate: -3deg;
+    transform: translateY(-10px);
+    transition: scale 2s ;
+    transition: rotate 2s ;
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 15px 0px #00000072;
+}
+
+.img-slider{
+    display: flex;
+    gap: 25px;
+
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
