@@ -22,8 +22,8 @@ const Slider = () => {
       transition:{
         delay: 0.5,
         type: "spring",
-        stiffness: 50,
-        dumping: 30,
+        stiffness: 40,
+        damping: 20,
       },
     },
   }
@@ -39,4 +39,4 @@ const Slider = () => {
   )
 }
 
-export default Slider
+export default Slider;

@@ -1,10 +1,19 @@
 
+@import '../../App.scss';
+
 .About-section{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 50px 0;
     font-family: 'roboto', sans-serif;
+    width: 100%;
+
+    @include mobile{
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+    }
 
     .title{
         .aboutme-P{
@@ -13,6 +22,12 @@
             letter-spacing: 1.1px;
             font-family: "Noto Sans", sans-serif;
             color: #00ccff;
+
+            @include mobile{
+                font-size: 15px;
+                display: flex;
+                flex-wrap: wrap;
+            }
         }
     }
 
@@ -21,10 +36,22 @@
     h2{
         font-size: 18px;
         font-weight: bolder;
+
+        @include mobile{
+            font-size: 16px;
+        }
     }
 
     .intro{
         font-size: 15.5px;
+
+        @include mobile{
+            font-size: 14px;
+        }
+
+        @include smMobile{
+           margin-bottom: 0;       
+        }
     }
 
     .about-ImgSec{
@@ -42,12 +69,31 @@
         overflow: hidden;
         margin-top: 50px;
 
+        @include mobile{
+            width: 270px;
+            height: 400px;
+        }
+
+        @include smMobile{
+            width: 230px;       
+            height: 350px;
+        }
+
         img{
             width: 340px;
             height: 490px;
             border-radius: 16px;
-            // display: none;
             z-index: 2;
+
+            @include mobile{
+                width: 260px;
+                height: 390px;
+            }
+
+            @include smMobile{
+                width: 220px;   
+                height: 340px;
+            }
         }
     }
 
@@ -85,8 +131,19 @@
         flex-wrap: wrap;
         gap: 15px;
 
-        .about-info{
+        @include mobile{
+            gap: 10px;
+            margin: 25px;
+            justify-content: left;
+        }
 
+        @include smMobile{
+            gap: 0;   
+        }
+
+
+
+        .about-info{
 
             ul{
                 display: flex;
@@ -99,11 +156,20 @@
                     gap: 15px;
                     font-size: 15.5px;
 
+                    @include mobile{
+                        font-size: 14px;
+                        gap: 10px;
+                    }
+
                     .icons{
                         color: #409ffe;
                         width: 18px;
                         height: 18px;
                     }
+                }
+
+                @include smMobile{
+                    margin-bottom: 0;
                 }
             }
         }
@@ -114,19 +180,48 @@
             flex-direction: column;
             gap: 10px;
 
+            @include mobile{
+                gap: 5px;
+                flex-wrap: wrap;
+            }
+
+            @include smMobile{
+                margin-bottom: 0;   
+            }
+
             ul{
                 display: flex;
                 gap: 0 50px;
+
+                // @include mobile{
+                //     flex-wrap: wrap;
+                //     gap: 25px;
+                // }
+
+                @include smMobile{
+                    flex-wrap: wrap;
+                    gap: 20px 50px;
+                    margin-bottom: 0;
+                }
 
                 li{
                     list-style: none;
                     display: flex;
                     gap: 10px;
 
+                    @include mobile{
+                        font-size: 14px;
+                    }
+
                     .interest-icon{
                         color: #409ffe;
                         width: 18px;
                         height: 18px;
+
+                        @include mobile{
+                            width: 16px;
+                            height: 16px;
+                        }
                     }
                 }
             }
@@ -136,6 +231,10 @@
             display: flex;
             flex-direction: column;
             gap: 5px;
+
+            @include mobile{
+                font-size: 14px;
+            }
         }
         
     }

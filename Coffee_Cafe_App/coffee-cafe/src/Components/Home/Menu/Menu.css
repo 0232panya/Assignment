@@ -44,7 +44,7 @@
     background-color: #b43131;
     position: absolute;
     left: 0;
-    bottom: -8px;
+    bottom : -10px;
     transition: 0.6s;
 }
 

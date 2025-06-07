@@ -2,18 +2,18 @@
 :root{
     --body_background: rgba(249, 247, 247, 0.985);
     --body_color : black;
-    --link_color : white;
+    --link_color : rgba(124, 124, 124, 0.696);
     --body_color1 : rgb(56, 12, 101);
     --body_opacity_color: #4a4a4a19;
     --body_img_background: whitesmoke;
-    --body_box_shadow : rgba(48, 47, 47, 0.159);
+    --body_box_shadow : rgba(48, 47, 47, 0.159);   
 }
 
 [data-theme="dark"]{
     --body_background : #282c34;
     --body_color1 : rgb(120, 62, 164);
     --body_color: white;
-    --link_color: black;
+    --link_color: rgba(111, 110, 110, 0.607);
     --body_opacity_color: #ffffff09;
     --body_img_background: #15181d;
     --body_box_shadow : rgba(205, 205, 205, 0.159);

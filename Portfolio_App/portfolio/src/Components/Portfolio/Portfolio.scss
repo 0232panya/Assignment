@@ -1,138 +1,261 @@
 
+@import '../../App.scss';
+
+
 .portfolio{
 
     margin: 50px;
+
+    @include mobile{
+        margin: 50px 20px;
+    }
+
+    @include smMobile{
+        margin: 50px 20px;           
+    }
+
+    .title{
+        p{
+            text-align: center;
+        }
+    }
 
     h1{
         text-align: center;
     }
 
-
-    .carousal {
-        // display: flex;
-        // justify-content: center;
-        // flex-wrap: wrap;
-
-        margin: 50px;
-
-        .projects-cards{
-            position: relative;
-            width: 350px;
-            height: 280px;
-
-            a{
-                .img-sec{
-                    width: 100%;
-                    height: 100%;
-            
-                    img{
-                        width: 100%;
-                        height: 100%;
-                        object-fit: fill;
-                    }
-                }
-
-                .portfolio-title{
-                    width: 100%;
-                    height: 0;
-                    color: var(--body_color);
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
-                    overflow: hidden;
-                    background: linear-gradient(var(--body_box_shadow),var(--link_color));
-                    padding: 0 35px;
-                    text-align: center;
-
-                    h2{
-                        font-size: 22px;
-                        font-weight: 700;
-                    }
-
-                    p{
-                        // font-size: 17px;
-                        font-weight: 500;
-                    }
-                }
-
-            }
-            
-
-        }
-
-        .projects-cards:hover .portfolio-title{
-            height: 100%;
-        }
-
-    }
-
-    // -------------------------------------
-
-    .container {
+    .filter{
+        width: 100%;
         display: flex;
         justify-content: center;
-        flex-wrap: wrap;
-        margin: 50px;
-
-        .projects-cards{
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+        
+        .filterBtn{
+            border-radius: 10px;
+            padding: 5px 20px;
+            background: transparent;
+            font-size: 18px;
+            font-weight: 500;
+            color: var(--body_color);
+            letter-spacing: 0.5px;
+            border: 2px solid var(--body_color);
             position: relative;
-            width: 350px;
-            height: 280px;
-            margin: 30px;
-
-            a{
-                .img-sec{
-                    width: 100%;
-                    height: 100%;
-            
-                    img{
-                        width: 100%;
-                        height: 100%;
-                        object-fit: fill;
-                    }
-                }
-
-                .portfolio-title{
-                    width: 100%;
-                    height: 0;
-                    // color: var(--body_color);
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
-                    background: linear-gradient(var(--body_box_shadow),#038fb3);
-                    padding: 0 35px;
-                    text-align: center;
-                    overflow: hidden;
-
-                    h2{
-                        font-size: 22px;
-                        font-weight: 700;
-                    }
-
-                    p{
-                        // font-size: 17px;
-                        font-weight: 500;
-                    }
-                }
-
-            }
-            
-
+            z-index: 10 !important;
         }
 
-        .projects-cards:hover .portfolio-title{
+        .filterBtn::after{
+            content: "";
+            width: 100%;
             height: 100%;
+            background-color: transparent;
+            border-radius: 8px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            transition: 0.6s;
+            z-index: 1;
+        }
+
+        .filterBtn.active::after{
+            background-color: var(--link_color);
+            z-index: -1;
+        }
+    }
+
+
+
+    .scroller{
+
+        margin: 40px 0;
+
+
+        .scroll-down, .scroll-up{
+           display: flex;
+           height: 40px;
+           align-items: center;
+           justify-content: center;
+           margin: 40px 0;
+
+            p{
+                font-weight: bold;
+                text-transform: uppercase;
+                // color: rgba(122, 113, 113, 0.362);
+                
+                 color: var(--link_color);
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
         }
 
     }
-
     
+}
+
+.section{
+    display: flex;
+    height: 300vh;
+    position: relative;
+
+    .horizontalSec{
+        display: flex;
+        height: fit-content;
+        position: sticky;
+        top: 25%;
+        align-items: center;
+        overflow: hidden;
+
+
+
+        .card-box{
+            display: flex;
+            gap: 25px;
+
+
+            .projects-cards{
+                width: 100%;
+                height: 350px;
+                
+                // 
+                display: flex;
+                align-items: center;
+                gap: 25px;
+
+                @include mobile{
+                    height: 230px;
+                }
+            }
+        }
+
+        
+    }
+}
+
+.cards{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    
+    transition: 0.8s cubic-bezier(.28,-0.03,0,0.99);
+
+    @include mobile{
+        width: 200px;
+        height: 200px;
+    }
+
+    .card{
+        width: 100%;
+        height: 300px;
+        background-color: var(--body_background);
+        border: none;
+        box-shadow: 5px 5px 20px var(--body_box_shadow);
+
+        // 
+        display: flex;
+        
+        flex-wrap: wrap;
+
+        @include mobile{
+            height: 200px;
+        }
+
+        .img-sec{
+            width: 50%;
+            display: flex;
+            height: 100%;
+
+            img{
+                width: 300px;
+                height: 300px;
+                object-fit: fill;
+                border-radius: 10px;
+                z-index: 1;
+
+                @include mobile{
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+    
+
+        .portfolio-title{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+
+            opacity: 0;
+            text-align: center;
+
+            h2{
+                font-size: 22px;
+                font-weight: 700;
+                margin-bottom: 20px;
+                color: var(--body_color);
+
+                @include mobile{
+                    font-size: 18px;
+                }
+            }
+            
+            p{
+                font-size: 14.5px;
+                font-weight: 400;
+                color: var(--body_color);
+
+                @include mobile{
+                    font-size: 13px;
+                }
+            }
+
+            .techno{
+                font-size: 14px ;
+
+                .techno-spam{
+                    font-weight: 500;
+                }
+            }
+
+            a{
+                padding: 20px;
+                background-color: var(--link_color);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                color: var(--body_color);
+
+                @include mobile{
+                    padding: 15px;
+                }
+            }
+        }
+    
+    }
+}
+
+.cards:hover{
+    width: 600px;
+
+    @include mobile{
+        width: 400px;
+    }
+
+    .card{
+
+        .img-sec{
+            img{
+                border-radius: 10px 0 0 10px;
+            }
+        }
+
+        .portfolio-title{
+            opacity: 1;
+            transition: opacity 0.5s;
+            transition-delay: 0.5s;
+        }
+    }
 }

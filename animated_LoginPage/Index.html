@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link  rel="stylesheet" href="Style.css" />
+</head>
+<body>
+    <div class="body">
+        <div class="img">
+        </div>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+    </div>
+
+    <div class="login-side">
+        <div class="header">
+            <div>
+                <div class="logo-title">
+                    <h1 class="logo-h1">Regions</h1>
+                    <h4>Mortgage</h4>
+                </div>
+            </div>
+            <div class="enroll">
+                <p class="enroll-p">Are you a new customer?</p>
+                <button class="enroll-btn">Enroll Now</button>
+            </div>
+        </div>
+        <div class="form-div">
+            <h1 class="form-h1">Welcome Back</h1>
+            <p class="form-p">Sign in to your regions myMortgage account.</p>
+            <form id="myform">
+                <div class="input">
+                    <input type="text" id="online-id" required />
+                    <label>Online ID</label>
+                </div>
+                <div  class="input">
+                    <input type="password" id="password" required />
+                    <label >Password</label>
+                </div>
+                <span>
+                    <input type="checkbox" class="checkbox-input" checked />
+                    <label>Remember me</label>
+                </span>
+                <button class="login-button" id="submitbutton" disabled>Login</button>
+    
+            </form>
+            <div class="forgotten-Sec">
+                <a href="/">Forgot Online ID?</a>
+                <a href="/">Forgot Password?</a>
+            </div>
+
+            <div class="footer">
+                <div class="footer-sec top">
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-house-heart" viewBox="0 0 16 16">
+                        <path d="M8 6.982C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982"/>
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                      </svg>
+                        Equal Housing Lender</p>
+                        <p>.</p>
+                    <p>Member FDIC</p>
+                </div>
+                <div class="footer-sec bottom">
+                    <p>&#169; 2023 Regions Corporation. All Reserved.</p>
+                    <p>.</p>
+                    <p style="color: rgb(2, 131, 2);">1(800) REGIONS</p>
+                </div>
+            </div>
+
+        </div>
+       
+    </div>
+
+    <script>
+        setTimeout(() => {
+            document.querySelector('.img').style.animation = 'shrinkBackground 1s forwards';
+        }, 6000); // Start shrinking after 10 seconds
+
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

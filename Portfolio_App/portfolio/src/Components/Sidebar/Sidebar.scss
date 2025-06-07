@@ -1,4 +1,6 @@
 
+@import '../../App.scss';
+
 .sidebar{
     height: 100%;
     width: 100px;
@@ -8,6 +10,7 @@
     justify-content: center;
     z-index: 999;
     
+   
 
     .sidebar-bg{
         position: fixed;
@@ -19,6 +22,9 @@
         background: var(--body_color);
         color: var(--body_background);
         
+        @include mobile{
+            width: 200px;
+        }
 
         .links{
             position: absolute;
@@ -32,6 +38,10 @@
 
             a{
                 font-size: 25px;
+
+                @include mobile{
+                    font-size: 20px;
+                }
             }
         }
 
@@ -50,8 +60,14 @@
         border: none;
         cursor: pointer;
 
+
         .svg-list{
             stroke: var(--body_background) !important;
+
+            @include mobile{
+                width: 20px;
+                height: 20px;
+            }
         }
     }
 

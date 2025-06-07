@@ -50,7 +50,7 @@ const About = () => {
 
     const ref = useRef() ; 
 
-    const isInView = useInView(ref, {marginY: '-500px'})
+    const isInView = useInView(ref, {marginY: '-400px'})
 
   return (
     <motion.div className='About-section' 
@@ -85,7 +85,7 @@ const About = () => {
                             <FaPhoneFlip  className='icons' /> <p>Phone &nbsp; :</p> +91 8623029708
                         </li>
                         <li>
-                            <CiMail className='icons'  /> <p>Email &nbsp; :</p> pranotimagdum2000@gmail.com
+                            <CiMail className='icons'  /> <p>Email &nbsp;:</p> pranotimagdum2000@gmail.com
                         </li>
                     </ul>
                 </div>

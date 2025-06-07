@@ -1,0 +1,136 @@
+
+@import '../../App.scss';
+
+.contact{
+    height: 100vh;
+    margin: auto;
+    margin: auto 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+
+    @include mobile{
+        flex-direction: column;
+        height: fit-content;
+        padding-bottom: 50px;
+        margin: auto 50px;
+    }
+
+    @include smMobile{
+        margin: auto 20px;           
+    }
+
+    .text-container{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+
+        h1{
+            font-size: 80px;
+            line-height: 80px;
+            font-weight: bold;
+
+            @include mobile{
+                font-size: 40px;
+            }
+        }
+
+        .item{
+
+            display: flex;
+            flex-direction: column;
+
+            h2{
+                margin: 0;
+
+                @include mobile{
+                    font-size: 22px;
+                }
+            }
+
+            span{
+                font-weight: 400;
+
+                @include mobile{
+                    font-size: 14px;
+                }
+            }
+        }
+
+    }
+
+    .form-container{
+        flex: 1;
+
+        @include mobile{
+            width: 100%;
+            margin: auto;
+        }
+        
+        .phone{
+            stroke: orange;
+            position: absolute;
+            margin: auto;
+            z-index: -1;
+            background-color: transparent;
+
+            .svg-phone{
+                width: 450px;
+                height: 450px;
+
+                @include mobile{
+                    width: 350px;
+                    height: 350px;
+                }
+
+                @include smMobile{
+                    width: 300px;
+                    height: 300px;
+                }
+            }
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+
+            input, textarea{
+                padding: 10px 20px;
+                background-color: transparent;
+                border: 1px solid var(--body_color);
+                border-radius: 5px;
+            }
+
+            .form-button{
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+                font-weight: 500;
+                background-color: orange;
+               
+            }
+              
+              .loader {
+                border: 4px solid rgba(7, 7, 7, 0.1);
+                border-radius: 50%;
+                border-top: 4px solid #333;
+                width: 24px;
+                height: 24px;
+                animation: spin 1s linear infinite;
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 8px;
+              }
+
+              @keyframes spin {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+              }
+        }
+    }
+}

@@ -1,36 +1,91 @@
 
 {
     "projects" : [
+        {
+            "id": 13,
+            "img" : "portfolio/animated-figma.png",
+            "Title" : "animated hero section template",
+            "description" : "my first animation in figma.",
+            "Techno" : "Figma",
+            "type" : "design",
+            "url" : "https://www.figma.com/proto/dTHwSI1e4rgDO507ZFsIwA/Untitled?node-id=12-65&t=ryUx0rWgDFwAC6Ul-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A3"
+        },
+        {
+            "id": 12,
+            "img" : "portfolio/e-commerce-figma.png",
+            "Title" : "E-Commerce Figma Template",
+            "description": "My First e-commerce website template.",
+            "Techno" : "Figma",
+            "type" : "design",
+            "url" : "https://www.figma.com/proto/wrHWVFv9jSFDa1KHI1AB5w/E-commerce?node-id=49-33&t=FhXLazW0wrll9Ukk-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
+        },
+        {
+            "id" : 13,
+            "img" : "portfolio/to-do-design.png",
+            "Title" : "to-do template",
+            "description" : "My First figma design.",
+            "Techno" : "Figma",
+            "type" : "design" ,
+            "url" : "https://www.figma.com/proto/kNPSAs4vxHcRay7ctmHGmZ/to-do-app?node-id=1-2&p=f&t=jw0uJxLQCmG0WvL0-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1"
+        },
 
         {
-            "id" : 1,
+            "id" : 11,
+            "img" : "portfolio/e-commerce.png",
+            "Title" : "E-commerce WebSite",
+            "description" : " I made Ecommerce website using ReactJS. And for backend, I have used Firebase forAuthentication and Store cart Items. And it is responsive.",
+            "Techno" : "React, HTML, CSS, JavaScript,FireBase, Bootstrap,Tailwind",
+            "type" : "website",
+            "url": "https://e-commerce-pm0232.netlify.app/"
+        },
+
+        {
+            "id" : 10,
             "img" : "portfolio/Interior_design.png",
             "Title" : "Interior Design App",
             "description" : "I have made a Interior Design website in React.Js. I have used the UnSplash API for photos and I have used the react library for carousal.",
+            "Techno" : "React, HTML, CSS, JavaScript, Bootstrap",
+            "type" : "website",
             "url" : "https://interior-design-pm.netlify.app/"
         },
 
         {
-            "id" : 2,
+            "id" : 9,
             "img" : "portfolio/Cafeapp.png",
             "Title" : "Cafe App",
             "description" : "I have made a Cafe App using reactJS. I had put some features like Cart, Login And LogOut Options in it and It's Responsive.",
+            "Techno" : "React, HTML, CSS, JavaScript, Bootstrap",
+            "type" : "website",
             "url" : "https://coders-cafe-pm.netlify.app/"
         },
 
         {
-            "id" : 3,
+            "id" : 8,
+            "img" : "portfolio/portfolio.png",
+            "Title" : "Portfolio Website",
+            "description" : "I made portfolio website using HTML, CSS and JavaScript. And it is responsible",
+            "Techno" : "HTML, CSS, JavaScript,Bootstap",
+            "type" : "website",
+            "url" : "https://myportfolio-pm.netlify.app/"
+        },
+
+        {
+            "id" : 7,
             "img" : "portfolio/Car-renting-app.png",
             "Title" : "Car Renting App",
             "description" : "I have made a Car Renting app using reactJS. It's Responsive.",
+            "Techno" : "React, HTML, CSS, JavaScript, Bootstrap",
+            "type" : "website",
             "url" : "https://car-renting-app-pm.netlify.app"
         },
 
         {
-            "id" : 4,
+            "id" : 6,
             "img" : "portfolio/News_App.png",
             "Title" : "News App",
             "description" : "I have made the News App in reactJS. In this, I used news API , and various sections like business , general , etc.",
+            "Techno" : "React, HTML, CSS, JavaScript, Bootstrap",
+            "type" : "website",
             "url" : "https://newsapp-pm.netlify.app/"
         },
 
@@ -39,38 +94,48 @@
             "img" : "portfolio/Crud_app.png",
             "Title" : "Crud App",
             "description" : "I have made the Crud App using react and redux.",
+            "Techno" : "React, HTML, CSS, JavaScript, redux",
+            "type" : "website",
             "url" : "https://crud-app-pm.netlify.app/"
         },
 
         {
-            "id" : 6,
+            "id" : 4,
             "img" : "portfolio/House_renting_app.png",
             "Title" : "Play Station Clone",
             "description" : "This is my first project. It's not that perfect but I gave my 100%. I only used HTML,CSS and BootStrap",
+            "Techno" : "React, HTML, CSS, JavaScript, Bootstrap",
+            "type" : "website",
             "url" : "https://playstation-pm.netlify.app/"
         },
 
         {
-            "id" : 7,
+            "id" : 3,
             "img" : "portfolio/weather-app.png",
             "Title" : "Weather App",
             "description" : "I have made the Weather app using HTML, CSS and JavaScript.",
+            "Techno" : "HTML, CSS, JavaScript",
+            "type" : "website",
             "url" : "https://weather-app0232.netlify.app/"
         },
 
         {
-            "id" : 8,
+            "id" : 2,
             "img" : "portfolio/digital-clock.png",
             "Title" : "Digital Clock",
             "description" : "I have made the Digital Clock app using HTML, CSS and JavaScript.",
+            "Techno" : "HTML, CSS, JavaScript",
+            "type" : "website",
             "url" : "https://digital-clock-pm.netlify.app/"
         },
 
         {
-            "id" : 9,
+            "id" : 1,
             "img" : "portfolio/age-calculator.png",
             "Title" : "Age Calculator",
             "description" : "I have made the Age Calculator app using HTML, CSS and JavaScript.",
+            "Techno" : "HTML, CSS, JavaScript",
+            "type" : "website",
             "url" : "https://age-calculator-pm.netlify.app/"
         }
     ]

@@ -1,17 +1,21 @@
 
 import React, { useState } from 'react';
-import "./App.css";
+import "./App.scss";
 import Hero from './Components/HeroSec/Hero';
 import Navbar from './Components/Navbar/Navbar';
 import About from './Components/About/About';
 import Skills from './Components/Skills/Skills';
 import Portfolio from './Components/Portfolio/Portfolio';
+import Contact from './Components/Contact/Contact';
+import Cursor from './Components/Cursor/Cursor';
 
 const App = () => {
 
 
   return (
     <div className="bg">
+      
+      <Cursor />
       <section id='Home'>
         <Navbar />
         <Hero />
@@ -26,10 +30,9 @@ const App = () => {
         <Portfolio />
       </section>
       <section id='Contact'>
-        Contact
+        <Contact />
       </section>
 
-      
     </div>
   )
 }

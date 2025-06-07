@@ -1,4 +1,7 @@
 
+@import '../../App.scss';
+
+
 .darkMode{
     display: flex;
     margin: 0 20px;
@@ -13,6 +16,11 @@
     border-radius: 1.5rem;
     transition: linear 900ms;
     padding: 0.02rem;
+
+    @include mobile{
+        width: 2rem;
+        height: 1rem;
+    }
 }
 
 .switch::after{
@@ -25,11 +33,21 @@
     border-radius: 50%;
     background-color: #fff;
     transition: linear 0.2s;
+
+    @include mobile{
+        top: 0.05rem;
+        width: 0.9rem;   
+        height: 0.9rem;
+    }
 }
 
 input[type="checkbox"]:checked + .switch:after{
     translate: 1.5rem 0;
     background-color: #282c34;
+
+    @include mobile{
+      translate: 0.9rem 0;   
+    }
 }
 
 input[type="checkbox"]:checked + .switch{

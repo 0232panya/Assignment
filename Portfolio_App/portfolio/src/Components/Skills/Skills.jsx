@@ -33,25 +33,30 @@ const Skills = () => {
     {"img" : "Images/css-logo.png", "skills" : "60"},
     {"img" : "Images/png-javascript.png", "skills" : "50"},
     {"img" : "Images/react-logo.png", "skills" : "55"},
-    {"img" : "Images/bootstrap-logo.png", "skills" : "70"}
+    {"img" : "Images/bootstrap-logo.png", "skills" : "70"},
+    {"img" : "Images/Figma-logo.svg", "skills" : "25"},
   ]
 
   return (
     <motion.div className='skills-sec'
      variants={variants} ref={ref}
      initial="initial" animate={isInView && "animate"} >
-        <h1>My Skills</h1>
+        <div className='title'> 
+          <p className='aboutme-P'>My Skills</p>
+          <h1>Skills</h1>
+        </div>
+
         <div className='container row'> 
            {
             skills.map(i => (
-              <div className='col-5 col-sm-4 col-md-4 box'>
+              <div className='box'>
                 <div className='cards'>
                   <div className='img-side'>
                     <img src={i.img} alt={i} />
                   </div>
                   <div className='skill-length-side'>
                     <p>{i.skills} %</p>
-                    <div style={{width:"150px", height: "150px"}}>
+                    <div className='circle'>
                     <Circle percent={i.skills} strokeWidth={8} trailWidth={8} className='progress-bar' />
                     </div>
                   </div>

@@ -1,0 +1,133 @@
+
+.checkout-nav-bar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.checkout-img{
+    width: fit-content;
+    height: 100%;
+    padding-left: 20px;
+}
+
+.checkout-img img{
+    width: fit-content;
+    height: 60px;
+}
+
+.stepper{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex: 0.5;
+    top: 20px;
+    width: 50%;
+}
+
+.step{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+}
+
+.step-num{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    z-index: 2;
+}
+
+.step-name{
+    font-size: 14px;
+}
+
+.active .step-num{
+    background-color: #007bff;
+    color: #fff;
+}
+
+.complete .step-num{
+    background-color: #28a745;
+    color: #fff;
+}
+
+.progress-bar{
+    position: absolute;
+    top: 32%;
+    /* width: 95%; */
+    left: 0;
+    height: 4px;
+    background-color: #ccc;
+}
+
+.progress{
+    height: 100%;
+    background-color: #28a745;
+    transition: 0.2s ease;
+}
+
+.checkout-right-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    gap: 5px;
+}
+
+.checkout-right-side .shieldcheck{
+    width: 30px;
+    height: 30px;
+    color: #28a745;
+}
+
+.checkout-right-side p{
+    font-size: 17px;
+}
+
+.btn-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-btn{
+    border: 2px solid black;
+    display: flex;
+}
+
+@media (max-width : 750px) {
+    .checkout-img{
+        display: none;
+    }
+
+    .stepper{
+        margin-left: 10px;
+        flex: 0.9;
+    }
+
+    .progress-bar{
+        top: 25%;
+    }
+
+    .checkout-right-side{
+        margin-right: 10px;
+    }
+
+    .checkout-right-side .shieldcheck{
+        width: 20px;
+        height: 20px;
+    }
+
+    .checkout-right-side p{
+        font-size: 14px;
+    }
+}

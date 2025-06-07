@@ -1,0 +1,166 @@
+
+.orders-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.address-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.address-side form {
+    background-color: transparent;
+    border: 1px solid lightgray;
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.address-side form div{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.address-side form div h5{
+    font-size: 13.5px;
+    font-weight: 600;
+}
+
+.address-side form div input{
+    border: 1px solid lightgray;
+    padding: 5px 10px;
+    border-radius: 2px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.address-side form div .sub-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.address-side form .address-saveOpt{
+    display: flex;    
+}
+
+.address-side form .address-saveOpt button{
+    width: fit-content;
+    padding: 5px 20px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.address-side form .address-saveOpt button:hover{
+    border-color: #facc15;
+    color: #facc15;
+}
+
+.address-side form .address-checkbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.address-side form .address-checkbox input{
+    width: 16px;
+}
+
+.address-side form .address-checkbox label{
+    font-size: 15px;
+}
+
+.address-side form .address-button{
+    width: 100%;
+    background: #facc15;
+    padding: 7px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/*  */
+
+.save-address-sec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.addAddress-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #facc15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.saved-address{
+    width: 50%;
+    height: 200px;
+    border: 1px solid lightgrey;
+    box-shadow: 1px 1px 1px 1px rgba(211, 211, 211, 0.712);
+    display: flex;
+    font-size: 14px;
+}
+
+.saved-details{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin:  15px;
+    gap: 5px;
+    flex: 1;
+}
+
+.saved-details h6{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.street, .district{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.saved-edit{
+    display: flex;
+    margin: 15px;
+}
+
+.saved-edit button{
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+}
+
+.saved-edit button:hover{
+    color: rgba(5, 5, 252, 0.736);
+}
+
+/*  */
+
+.order-display-side{
+    display: flex;
+    width: 40%;
+}
+

@@ -1,0 +1,471 @@
+
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.body {
+    margin: 40px;
+    width: 96%;
+    height: 96%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img{
+    width: 96%;
+    height: 96%;
+    display: flex;
+    border-radius: 10px;
+    background-image: url('./house_img.jpg');
+    background-size: cover;
+    background-position: center;
+    animation: image 3s ease;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+@keyframes image {
+   from{
+		scale: 0;
+	}
+	to {
+		scale: 1;
+	}
+}
+
+@keyframes shrinkBackground {
+    0%{
+        width: 100%;
+        height: 100%;
+    }
+
+    100%{
+        width: 50%;
+        right: 20px !important;
+        top: 20px;
+    }
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: showLogo 3s 3.1s forwards, moveLogo 1s 6s forwards;
+    z-index: 1;
+}
+
+@keyframes logo {
+    from{
+		scale: 0;
+	}
+	to {
+		scale: 1;
+	}
+}
+
+@keyframes showLogo {
+    0% {
+        opacity: 0;
+        scale: 0;
+    }
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes moveLogo {
+    0% {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    100% {
+        top: 5%;
+        left: 5%;
+        transform: translate(0, 0);
+    }
+}
+
+img{
+    width: 100%;
+    opacity: 0;
+    animation: logo-img 0.8s 5s forwards;
+}
+
+@keyframes logo-img {
+    from{
+        scale: 0;
+        opacity: 0;
+    }
+
+    to{
+        scale: 1.2;
+        opacity: 1;
+    }
+}
+
+
+/* --------------- */
+
+.login-side{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    width: 50%;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-title{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 17%;
+    opacity: 0;
+    animation: logoTitle 0.5s 10s forwards
+}
+
+@keyframes logoTitle {
+    0% {
+        opacity: 0;
+        top: 40px;
+        left: 15%;
+        transform: translate(-50%, -50%);
+    }
+    100% {
+        opacity: 1;
+        top: 0;
+        left: 20%;
+        transform: translate(0,5px);
+    }
+}
+
+
+
+.logo-h1{
+    margin-bottom: 0;
+    font-size: 22px;
+    font-family: 'poppins',sans-serif;
+    text-transform: uppercase;
+}
+
+h4{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'poppins',sans-serif;
+}
+
+.header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.enroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+@keyframes enroll {
+    0% {
+        opacity: 0;
+        top: 0px;
+        right: 0%;
+        transform: translate(50%, -50%);
+    }
+    100% {
+        opacity: 1;
+        top: 40px;
+        right: 10%;
+        transform: translate(5px, 0);
+    }
+}
+
+.enroll-btn{
+    margin: auto;
+    padding: 9px 12px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    font-family: 'poppins', sans-serif;
+    color: rgb(2, 131, 2);
+    background: white;
+    opacity: 0;
+
+    animation: enroll 0.2s 10s forwards;
+}
+
+.enroll-p{
+    font-family: 'poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0;
+    animation: enroll-p 0.5s 11s forwards;
+}
+
+@keyframes enroll-p {
+    0% {
+        opacity: 0;
+        top: 40px;
+        right: 0%;
+        transform: translate(50%, -50%);
+    }
+    100% {
+        opacity: 1;
+        top: 40px;
+        right: 10%;
+        transform: translate(5px, 0);
+    }
+}
+
+/*  */
+
+.form-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    opacity: 0;
+    animation: form-div 0.5s 11s forwards;
+}
+
+@keyframes form-div {
+    0% {
+        opacity: 0;
+        bottom: 25%;
+        left: 0%;
+        transform: translate(0%, 20%);
+
+    }
+    100% {
+        opacity: 1;
+        top: 0;
+        left: 0;
+        transform: translate(5px, 0);
+    }
+}
+
+.form-h1{
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+.form-p{
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: grey;
+    font-family: 'poppins',sans-serif;
+}
+
+form{
+    width: 80%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input{
+    width: 55%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background: transparent;
+    position: relative;
+}
+
+.input input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 10px; 
+    margin: -10px;
+    border-radius: 10px;
+    outline: 0;
+    background-color: transparent;
+}
+
+.input input:focus ~ label,
+.input input:valid ~ label{
+    transform: translateY(-15px);
+    color:  rgb(2, 131, 2);
+    transition: transform 0.4s;
+}
+
+.input input:focus{
+    border: 1px solid rgb(2, 131, 2);
+}
+
+.input label{
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+    color: gray;
+    font-size: 15px;
+    pointer-events: none;
+}
+
+.login-button{
+    width: 60%;
+    padding: 10px;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 20px;
+}
+
+#submitbutton:disabled{
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+#submitbutton:enabled{
+    background-color: green;
+    cursor: pointer;
+}
+
+
+.spinner{
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #000;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 0.2s linear infinite;
+}
+
+@keyframes spin {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/*  */
+
+span{
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+    align-items: center;
+    width: 55%;
+}
+
+
+input[type="checkbox"] {
+    opacity: 0;
+    z-index: 1;
+}
+
+input[type="checkbox"] + label{
+    position: relative;
+    padding-left: 30px;
+    left: -20px;
+    top: 0;
+    cursor: pointer;
+    display: inline-block;
+    color: grey;
+    /* z-index: -1; */
+    line-height: 25px;
+}
+
+input[type="checkbox"] + label::before{
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    outline: 2px solid #aaa;
+    background: #fff;
+}
+
+input[type="checkbox"]:checked + label::before{
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    outline: 2px solid green ;
+    background: #fff;
+}
+
+input[type="checkbox"]:checked + label::after{
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/017/177/781/non_2x/green-tick-check-mark-on-transparent-background-free-png.png');
+    /* background-position: center; */
+    background-size: contain;
+}
+
+
+.forgotten-Sec{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.forgotten-Sec a{
+    color: rgb(2, 131, 2);
+    text-decoration: none;
+    font-family: 'poppins',sans-serif;
+    font-size: 14px;
+}
+
+/*  */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.footer-sec{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-sec p{
+    margin: 0;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'poppins',sans-serif;
+}

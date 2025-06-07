@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
 import data from './Components/Home/Menu/Menu.json';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Cart from './Components/Cart/Cart';
 import About from './Components/Home/About/About';
 
@@ -15,6 +15,7 @@ function App() {
 
   const [login, setLogin] = useState(false);
   const [popUp , setPopUp] = useState(false);
+  const [timerID, setTimerID] = useState(null);
 
 
   const handleClick = (item) => {
@@ -49,11 +50,29 @@ function App() {
 
   }
 
+  useEffect(()=>{
+
+
+    const hasShownModal = sessionStorage.getItem("hasShownModal");
+    
+    const timer = setTimeout(() => {
+      setPopUp(true);
+      sessionStorage.setItem("hasShownModal", "true");
+
+    }, 12000);
+    // setTimerID(timer);
+
+    return () => clearTimeout(timer);
+
+  },[]);
+
+  
+
 
   return (
     <div className='app'>
       <BrowserRouter>
-        <Navbar size={cart.length} login={login} setLogin={setLogin} popUp={popUp} setPopUp={setPopUp} />
+        <Navbar data={data.menuCategary} size={cart.length} login={login} setLogin={setLogin} popUp={popUp} setPopUp={setPopUp} timerID={timerID} />
         <Routes>
           <Route path='/' element={<Home data={data.menuCategary} handleClick={handleClick} login={login} setPopUp={setPopUp} />} />
           <Route path='/cart' element={<Cart cart={cart} setCart={setCart} handleChange={handleChange} />} />

@@ -4,7 +4,7 @@ import './LoginPopUp.css';
 import { FaFacebookSquare } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 
-const LoginPopUp = ({setPopUp, setLogin}) => {
+const LoginPopUp = ({setPopUp, setLogin, timerID}) => {
 
     const initValue = { email: "" , password: ""};
 
@@ -31,8 +31,14 @@ const LoginPopUp = ({setPopUp, setLogin}) => {
         }else{
             setLogin(true);
         }
+    }
 
 
+    const closeModal =() =>{
+        setPopUp(false);
+        // if(timerID){
+        //     clearTimeout(timerID)
+        // }
     }
 
   return (
@@ -46,7 +52,7 @@ const LoginPopUp = ({setPopUp, setLogin}) => {
 
 
             <div className='loginPopUp-CloseBTN'>
-                <button onClick={() => setPopUp(false)}>X</button>
+                <button onClick={closeModal}>X</button>
             </div>
 
 

@@ -19,6 +19,45 @@ nav{
     height: fit-content;
 }
 
+.search-bar{
+    display: flex;
+    /* width: 200px; */
+}
+
+.search-bar form.active {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.search-bar form .input-search{
+    background: transparent;
+    outline: 0 !important;
+    border: 0 !important;
+    padding: 0 10px;
+    color: #fff;
+    box-shadow: none;
+}
+
+.search-bar form .input-search::placeholder{
+    color : rgba(228, 228, 228, 0.882)
+}
+
+.search-bar form button{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-search{
+    width: 18px;
+    height: 18px;
+}
+
 .cafe-logo p{
     margin: auto;
     font-size: 2rem;
